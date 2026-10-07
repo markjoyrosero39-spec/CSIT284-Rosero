@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
               const SizedBox(height: 20),
 
               const Text(
-                'Learn flutter the fun way',
+                'Favorite Food Finder App ',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
