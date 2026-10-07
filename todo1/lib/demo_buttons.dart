@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 class DemoButtons extends StatefulWidget {
+  const DemoButtons({super.key});
   @override
   State<DemoButtons> createState() {
     return _DemoButtonsState();
   }
 }
-
+ 
 class _DemoButtonsState extends State<DemoButtons> {
-  bool _isUnderstood = false;
-
+  var _isUnderstood = false;
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -40,3 +40,5 @@ class _DemoButtonsState extends State<DemoButtons> {
     );
   }
 }
+ 
+ 
